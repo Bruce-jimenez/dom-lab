@@ -105,10 +105,9 @@ var showingSubMenu = false;
     }
     for(let i = 0; i < topMenuLinks.length; i++){
         topMenuLinks[i].classList.remove('active')
+
     }
-    // if (event.tagname = 'a'){
-    //     event.target.classList.add('active')
-    // }
+    
     e.target.classList.add('active')
     if(e.target.subLinks != undefined){
         showingSubMenu = true
